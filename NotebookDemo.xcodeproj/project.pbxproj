@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8975C6129923C8B00BE9B6E /* newView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975C6029923C8B00BE9B6E /* newView.swift */; };
+		B8975C632992458B00BE9B6E /* NewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8975C622992458B00BE9B6E /* NewNote.swift */; };
 		B8AAE2B9299237C000AAA718 /* NotebookDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AAE2B8299237C000AAA718 /* NotebookDemoApp.swift */; };
 		B8AAE2BB299237C000AAA718 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AAE2BA299237C000AAA718 /* ContentView.swift */; };
 		B8AAE2BD299237C500AAA718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AAE2BC299237C500AAA718 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B8975C6029923C8B00BE9B6E /* newView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newView.swift; sourceTree = "<group>"; };
+		B8975C622992458B00BE9B6E /* NewNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNote.swift; sourceTree = "<group>"; };
 		B8AAE2B5299237C000AAA718 /* NotebookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotebookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AAE2B8299237C000AAA718 /* NotebookDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotebookDemoApp.swift; sourceTree = "<group>"; };
 		B8AAE2BA299237C000AAA718 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				B8AAE2BF299237C500AAA718 /* Preview Assets.xcassets */,
+				B8975C6029923C8B00BE9B6E /* newView.swift */,
+				B8975C622992458B00BE9B6E /* NewNote.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8975C632992458B00BE9B6E /* NewNote.swift in Sources */,
 				B8AAE2BB299237C000AAA718 /* ContentView.swift in Sources */,
+				B8975C6129923C8B00BE9B6E /* newView.swift in Sources */,
 				B8AAE2B9299237C000AAA718 /* NotebookDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
